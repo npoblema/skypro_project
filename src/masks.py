@@ -6,6 +6,3 @@ def masks_card(card: str) -> str:
 def masks_account(account: str) -> str:
     """Функция принимает на вход номер счета и возвращает его маску"""
     return f"**{account[16:]}"
-
-
-
